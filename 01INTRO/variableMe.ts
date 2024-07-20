@@ -19,4 +19,14 @@ let isLoggenIn: boolean = false;
 
 isLoggenIn.valueOf();
 
+//any
+
+// let hero; // don't write like this
+let hero: string; // write like this 
+
+function getHero(){
+    return "Iron man"
+}
+hero = getHero()
+
 export {};
